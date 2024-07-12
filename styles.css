@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0b0b0b;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: none; /* Remove the white line */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .logo .fa-search {
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .nav-links li {
+    margin: 0 10px;
+}
+
+header .nav-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+header .auth-buttons {
+    display: flex;
+}
+
+header .auth-buttons button {
+    margin-left: 10px;
+    background: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.nav-links li {
+    color: grey;
+    cursor: pointer;
+}
+
+li:hover {
+    color: rgb(164, 12, 12);
+}
+
+.hero {
+    background: #00aaff url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hero .upload-btn {
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.search {
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search form input, .search form select, .search form button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px; /* Ensuring consistent width */
+}
+
+.search form button {
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

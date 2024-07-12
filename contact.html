@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fa fa-search search-icon"></i>
+                    <h1>Job Board</h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><button class="nav-button" onclick="location.href='index.html'">Home</button></li>
+                        <li><button class="nav-button" onclick="openJobSearch()">Browse Job</button></li>
+                        <li><button class="nav-button" onclick="location.href='pages.html'">Pages</button></li>
+                        <li><button class="nav-button" onclick="location.href='blog.html'">Blog</button></li>
+                        <li><button class="nav-button" onclick="location.href='contact.html'">Contact</button></li>
+                    </ul>
+                    <div class="auth-buttons">
+                        <button class="login" onclick="location.href='Home.html'">Log In</button>
+                        <button class="post-job" onclick="location.href='https://www.linkedin.com/in/kavin-velu/'">Post A Job</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <p><a href="https://www.linkedin.com/in/kavin-velu/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></p>
+                <p><i class="fas fa-phone"></i> 9500645013</p>
+                <p><i class="fas fa-envelope"></i> kavinvelusamy2004@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Job Street, Job City, Job Country</p>
+                <p><i class="fas fa-globe"></i> www.jobboard.com</p>
+                <p><i class="fas fa-clock"></i> Office Hours: Monday - Friday, 9AM - 6PM</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openJobSearch() {
+            window.open("https://www.google.com/search?q=job+search", "_blank");
+        }
+    </script>
+</body>
+</html>
